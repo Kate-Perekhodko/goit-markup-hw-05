@@ -825,6 +825,10 @@ see 511                    }*/
   border: none;
   fill: #f4f4fd;
 }
+:root: {
+  --checked-bg-color: #404bbf; /* фон при checked */
+  --checked-icon-fill: #f4f4fd; /* колір іконки при checked */
+}
 
 .label-checkbox-a {
   color: #4d5ae5;
