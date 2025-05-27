@@ -297,7 +297,7 @@ p {
 }
 /* Футер */
 .footer-p {
-  max-width: 264 px;
+  max-width: 264px;
 }
 .footer-logo {
   margin-bottom: 16px;
@@ -818,23 +818,11 @@ see 511                    }*/
   fill: transparent;
 }
 
-.input-checkbox:checked .label-checkbox-span {
+.input:checked + label > span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
-
-/*.input:checked .label-checkbox-span {
-    background-color: #404bbf; 
-    border: none; 
-    fill: #F4F4FD; 
-}*/
-
-/*.label-checkbox-span .input-checkbox:checked{
-    background-color: #404bbf; 
-    border: none; 
-    fill: #F4F4FD; 
-}*/
 
 .label-checkbox-a {
   color: #4d5ae5;
@@ -862,5 +850,11 @@ see 511                    }*/
   background-color: #404bbf;
 }
 .button-main:active {
+  background-color: #404bbf;
+}
+.modal-form-button:focus {
+  background-color: #404bbf;
+}
+.button-main:focus {
   background-color: #404bbf;
 }
